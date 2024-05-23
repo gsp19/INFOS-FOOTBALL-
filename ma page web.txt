@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOS FOOTBALL (Gsp7)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .facebook-page {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INFOS FOOTBALL (Gsp7)</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>À propos de moi</h2>
+            <p>Je suis un grand fan de football, en particulier du Real Madrid et de la légende Cristiano Ronaldo. Voici quelques informations sur mes passions.</p>
+
+            <h2>Le Real Madrid</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Logo du Real Madrid">
+            <p>Le Real Madrid est l'un des clubs de football les plus prestigieux et titrés au monde. Fondé en 1902, le club a remporté de nombreux titres nationaux et internationaux, dont plusieurs Ligues des Champions.</p>
+
+            <h2>Cristiano Ronaldo</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo">
+            <p>Cristiano Ronaldo, souvent considéré comme l'un des meilleurs joueurs de tous les temps, a joué pour le Real Madrid de 2009 à 2018. Pendant cette période, il a remporté de nombreux titres et a marqué un nombre impressionnant de buts.</p>
+
+            <div class="facebook-page">
+                <h2>Dernières publications Facebook</h2>
+                <div id="fb-root"></div>
+                <div class="fb-page" 
+                    data-href="https://www.facebook.com/profile.php?id=61554432014169" 
+                    data-tabs="timeline" 
+                    data-width="500" 
+                    data-height="700" 
+                    data-small-header="false" 
+                    data-adapt-container-width="true" 
+                    data-hide-cover="false" 
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/profile.php?id=61554432014169" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/profile.php?id=61554432014169">INFOS FOOTBALL (Gsp7)</a>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 INFOS FOOTBALL (Gsp7)</p>
+    </footer>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v10.0" nonce="Kt56k5dE"></script>
+</body>
+</html>
